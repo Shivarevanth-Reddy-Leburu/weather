@@ -1,34 +1,39 @@
 body {
     color: #333333;
     font-family: arial;
-    max-width: 650px;
-    margin: 0 auto;
-    padding: 0 16px;
     background-color: ghostwhite;
-
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
-.main-content {
-    flex-grow: 1;
-}
+
 
 footer {
-    color: #888888;
-    border-top: 1px solid #eeeeee;
-    margin-top: 16px;
-    padding: 16px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
 }
 
 header {
     margin-top: 16px;
-    margin-bottom: 48px;
+    text-align: center;
 }
 
 h1{
+    text-align: center;
     margin-bottom: 16px;
+}
+
+.main-content {
+    margin-bottom: 400px;
+}
+
+form {
+    padding-top:10px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 header a {
@@ -53,4 +58,25 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+img {
+   padding-left: 500px; 
+}
+
+.main-contents {
+    margin-bottom: 120px;
+}
+
+.shiva {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+.chakri {
+    text-align: center;
+    background-color: violet;
+    color: white;
 }
